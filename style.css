@@ -93,6 +93,26 @@ strong{
     text-decoration: none;
 }
 
+.listbuttons li{
+    text-align: center;
+    font-size: 13px;
+    padding: 1px 1px;
+    margin-top: 3px;
+    padding: 5px;
+    border-radius: 100px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.listbuttons ul{
+    list-style: none;
+    gap: 2rem;
+    margin: 40px 0;
+}
+
+.listbuttons a{
+    text-decoration: none;
+}
 
 /*2 seção*/
 
@@ -156,6 +176,7 @@ strong{
     display: flex;
     gap: 2rem;
     align-items: center;
+    
 }
 
 .list2 a{
@@ -187,3 +208,9 @@ strong{
     border-radius: 10px;
     margin: 0.3rem;
  }
+ /*5 secao*/
+ 
+ #status{
+    width: 70%;
+ }
+ 
