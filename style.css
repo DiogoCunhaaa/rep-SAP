@@ -37,31 +37,8 @@ strong{
     align-items: center;
 }
 
-.contact{
-    max-width: 50px;
-}
-
-.contact li{
-    font-size: 13px;
-    max-width: 160px;
-    margin-top: 3px;
-    padding: 5px;
-    border-radius: 100px;
-    background-color: blue;
-}
-
-.contact a{
-    color: #ADD8E6;
-    text-decoration: none;
-}
-
-.contact ul{
-    list-style: none;
-    gap: 2rem;
-    margin: 40px;
-}
-
-.msg{
+.msg{   
+    font-size: large;
     padding: 1rem;
     border-radius: 8px;
     margin: 3px 20px;
@@ -70,49 +47,77 @@ strong{
 .list{
     padding-left:400px;
     width: 900px;
+    margin-top: 30px;
 }
 
-.list li{
+.buttoncontainer{
+    display: flex;
+    align-items: center;
+    margin: 1;
+}
+
+.buttonmain{
     text-align: center;
-    font-size: 13px;
-    padding: 1px 1px;
+    padding: 5px 10px;
+    width: 300px;
     margin-top: 3px;
-    padding: 5px;
-    border-radius: 100px;
-    background-color: blue;
-}
-
-.list ul{
-    list-style: none;
-    gap: 2rem;
-    margin: 40px;
-}
-
-.list a{
+    font-size: 13px;
     color: #ADD8E6;
-    text-decoration: none;
-}
-
-.listbuttons li{
-    text-align: center;
-    font-size: 13px;
-    padding: 1px 1px;
-    margin-top: 3px;
-    padding: 5px;
-    border-radius: 100px;
-    background-color: white;
+    background-color: blue;
+    border-radius: 190px;
     cursor: pointer;
 }
 
-.listbuttons ul{
-    list-style: none;
-    gap: 2rem;
-    margin: 40px 0;
+.buttonsmall{
+    font-size: 13px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.listbuttons a{
-    text-decoration: none;
+.buttonsecond{
+    text-align: center;
+    padding: 5px 10px;
+    width: 160px;
+    margin-top: 3px;
+    font-size: 13px;
+    color: #ADD8E6;
+    background-color: blue;
+    border-radius: 190px;
+    cursor: pointer;
+    z-index: 1;
 }
+
+.contact_button_container{
+   
+    max-width: 200px;
+    max-height: 60px;
+}
+
+.btn{
+    position: absolute;
+   
+}
+
+.buttonin{
+    font-size: 13px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+
 
 /*2 seção*/
 
@@ -171,7 +176,7 @@ strong{
 
 .list2 ul{
     padding-right: 10px;
-    padding-left: 900px;
+    padding-left: 700px;
     list-style: none;
     display: flex;
     gap: 2rem;
@@ -189,19 +194,25 @@ strong{
 }
 
 
+.descricao{
+    text-align: center;
+    font-size: 13px;
+    color:black;
+}
+
 
 .container img { 
-    max-width: 200px;
+    max-width: 180px;
     padding-top: 20px;
  }
 
- .descricao{
-   padding-left: 30px;
-    color: black;
-    font-size: 10px;
-    font-weight: bold;
-    margin-bottom: 10px;
+ .containera img { 
+    max-width:100%;
+    padding-top: 20px;
  }
+
+ 
+
 
  .container{
     background-color: white;
@@ -211,6 +222,6 @@ strong{
  /*5 secao*/
  
  #status{
-    width: 70%;
+    width: 66%;
  }
  
