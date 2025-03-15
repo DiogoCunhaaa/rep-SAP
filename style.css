@@ -33,6 +33,7 @@ strong{
 
 /* 1section */
 #hello{
+    max-width: 70%;
     width: 70%;
     align-items: center;
 }
@@ -133,27 +134,29 @@ strong{
     
 }
 
-.navstatus{
-    justify-content: center;
-    align-items: center;
-}
-
-.navstatus p{
-    padding-right: 17px;
-    margin-left: 0;
+#status strong{
     font-size: 14px;
+    white-space: nowrap;
+   
 }
 
-.navstatus strong{
-    padding-right: 50px;
+.list_status ul{
+    padding-left: 100px;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    white-space: nowrap;   
+}
+
+.list_status li {
+    font-size: 14px;
 }
 
 .addstatus{
     border: none;
     color: blue;
-    padding: 13px 19px;
+    padding: 7px 10px;
     border-radius: 50%;
-    display: inline-block;
     cursor: pointer;
 }
 
@@ -170,18 +173,24 @@ strong{
 
 /*3 seção*/
 
+.titulo{
+    font-size: 14px;
+    white-space: nowrap;
+}
+
 #meio{
     width: 70%;
 }
 
 .list2 ul{
     padding-right: 10px;
-    padding-left: 700px;
+    padding-left: 600px;
     list-style: none;
     display: flex;
     gap: 2rem;
     align-items: center;
-    
+    font-size: 14px;
+    white-space: nowrap;
 }
 
 .list2 a{
@@ -189,9 +198,6 @@ strong{
     color: blue;
 }
 
-#coment{
-    width: 30%;
-}
 
 
 .descricao{
@@ -219,6 +225,14 @@ strong{
     border-radius: 10px;
     margin: 0.3rem;
  }
+
+
+
+ 
+#coment{
+    width: 30%;
+}
+
  /*5 secao*/
  
  #status{
