@@ -15,6 +15,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    overflow-x: hidden;
 }
 
 section{
@@ -95,7 +96,8 @@ strong{
 }
 
 .contact_button_container{
-   
+   width: 160px;
+   height: 30px;
     max-width: 200px;
     max-height: 60px;
 }
@@ -120,12 +122,15 @@ strong{
 
 
 
+
+
 /*2 seção*/
 
 #status{
     width: 30%;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
 #status h3{
@@ -155,7 +160,7 @@ strong{
 .addstatus{
     border: none;
     color: blue;
-    padding: 7px 10px;
+    padding: 3px 6px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -169,6 +174,67 @@ strong{
     background-color: #D8D8D8;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     transform: translateY(4px);
+}
+
+.dados{
+    font-weight: bold;
+    font-size: 13px;
+    width: 100px;
+}
+
+.dados ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.dados li{
+    padding-right: 100px;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.container_dado{
+    background-color: white;
+    margin: 10px 0px;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.container_dado ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.container_dado li{
+    padding-right: 60px;
+    white-space: nowrap;
+    color: black;
+    font-weight: bold;
+}
+
+.processo{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.processo1{
+    background-color: #eead2d;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.processo2{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 /*3 seção*/
@@ -215,27 +281,66 @@ strong{
  .containera img { 
     max-width:100%;
     padding-top: 20px;
+
  }
 
- 
-
+.alertas li{
+    padding-left: 80px;
+    text-decoration: none;
+}
 
  .container{
     background-color: white;
     border-radius: 10px;
     margin: 0.3rem;
  }
-
-
-
  
 #coment{
     width: 30%;
 }
 
+.containerab img { 
+    max-width:100%;
+    padding-top: 20px;
+    margin: 10px;
+    border-radius:50%;
+ }
+
  /*5 secao*/
  
  #status{
-    width: 66%;
+    width: 70%;
  }
- 
+
+ /* 6 secao*/
+
+ #end{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+ }
+
+ #end strong{
+    white-space: nowrap;
+    font-size: 14px;
+    margin-bottom: 35px;
+ }
+
+
+.container_pedido{
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px 0px;
+}
+
+.container_pedido img { 
+    background-color: white;
+    border-radius: 8px;
+    padding: 6px;
+    max-width: 180px;
+ }
+
+ .vpp{
+    margin-right: 8px;
+ }
